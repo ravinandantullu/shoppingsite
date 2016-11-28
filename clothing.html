@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Online Shooping</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Online Shopping</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./clothing.html">Clothing</a></li>
+                <li><a href="./accessories.html">Accessories</a></li>
+                <li><a href="./contactus.html">Contactus</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./signin.html">Signin</a></li>
+                <li><a href="./sitemap.html">Sitemap</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1> CLOTHING </h1>
+            <form name="myForm">
+                Company name:<br>
+                <input type="text" name="companyname" required>
+                <br><br> Enter what you are:<br>
+                <input type="radio" name="seller" value="manufacturer"> Manufacturer<br>
+                <input type="radio" name="gender" value="dealer"> dealer<br>
+                <input type="radio" name="gender" value="Retailer"> retailer<br>
+                <br> phonenumber:
+                <br>
+                <input type="text" name="phonenumber" required>
+                <br><br> Email:
+                <br>
+                <input type="text" name="email" required>
+                <br><br> user can contact me through:<br>
+                <input type="checkbox" name="text" value="text">By text
+                <br>
+                <input type="checkbox" name="phone" value="phone">By phone
+                <br>
+                <input type="checkbox" name="email" value="email">By email
+                <br><br> title of the product:<br>
+                <input type="text" name="title" required>
+                <br><br> model number:<br>
+                <input type="text" name="modelnumber" required>
+                <br><br> price:
+                <br>
+                <input type="text" name="price" required>
+                <br><br> image:
+                <br>
+                <input type="file" name="pic" accept="image/*"><br><br> description:
+                <br>
+                <input type="text" name="message" style="height:200px;width:420px;" required>
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="submit" value="dismiss">
+
+
+            </form>
+
+
+        </article>
+
+        <footer>Copyright</footer>
+
+    </div>
+
+</body>
+
+</html>
